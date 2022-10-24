@@ -1,0 +1,6 @@
+jdk:
+  - openjdk9
+install:
+  - echo "Running a custom install command"
+  - ./Users/elton/Documents/GitHub/lucide-android/packages/lucide-android/gradlew publishReleasePublicationToMavenLocal
+

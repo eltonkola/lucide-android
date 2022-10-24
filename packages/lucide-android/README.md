@@ -25,11 +25,15 @@ dependencies {
 ## Usage
 ### Use an icon
 ```kotlin
-        //TODO
+    Icon(
+      modifier = Modifier.size(32.dp),
+      imageVector = Lucide.Map,
+      contentDescription = Lucide.Map.name
+    )
 ```
 ### List them all
 ```kotlin
-        //TODO
+    Lucide.AllIcons
 ```
 
 ## Notes
