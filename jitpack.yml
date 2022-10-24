@@ -1,5 +1,5 @@
 jdk:
-  - openjdk9
+  - openjdk11
 install:
   - echo "Build android library"
   - cd ./packages/lucide-android/
